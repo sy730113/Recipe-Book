@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap');
+:root{
+  --red: #d01c28;
+  --gray:#2e2e2e;
+
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+ 
+  color: #000000;
+  background-color: #ffffff;
+}
+.container{
+  max-width: 800px;
+  margin:  auto;
+  display: flex;
+  justify-content: space-between;
+ height: 40px;
+ align-items: center;
+}
+.container ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.login-btn{
+  background-color:var(--red);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-btn:hover{
+  background-color:var(--gray);
+}
+
+.body-container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  padding-top: 100px;
+  margin: auto;
+
+  
+}
+.body-container .left-side h1{
+  font-size: 3.5rem;
+  line-height: 55px;
+}
+.body-container .left-side p{
+font-weight: bold;
+}
+.shopping-btn{
+  max-width: 250px;
+  display: flex;
+gap: 20px;
+}
+.shop-now{
+  background-color:var(--gray);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Category{
+  background-color: transparent;
+  color: var(--gray);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+.also{
+  font-size: 10px;
+  margin-top: 20px;
+}
+.logos{
+  max-width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
